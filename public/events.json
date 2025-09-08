@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "title": "Lawrence Puerto Rican Festival",
+    "description": {
+      "en": "Annual parade and cultural celebration with music, food, and performances.",
+      "es": "Desfile anual y celebración cultural con música, comida y presentaciones."
+    },
+    "date": "2025-09-15T15:00:00Z",
+    "location": {
+      "name": "Campagnone Common",
+      "address": "200 Common St, Lawrence, MA",
+      "lat": 42.7067,
+      "lng": -71.1634
+    },
+    "category": "cultural",
+    "organizer": "Lawrence Cultural Alliance",
+    "language": ["es","en"],
+    "bilingualFlyerURL": "https://example.com/puerto-rican-festival-flyer.jpg",
+    "town": "Lawrence"
+  },
+  {
+    "id": "2",
+    "title": "Dominican Parade of Lawrence",
+    "description": {
+      "en": "Colorful parade celebrating Dominican culture with floats, music, and dance.",
+      "es": "Colorido desfile que celebra la cultura dominicana con carrozas, música y baile."
+    },
+    "date": "2025-08-11T14:00:00Z",
+    "location": {
+      "name": "Essex St",
+      "address": "Essex St, Lawrence, MA",
+      "lat": 42.7078,
+      "lng": -71.1639
+    },
+    "category": "cultural",
+    "organizer": "Dominican Parade Committee",
+    "language": ["es","en"],
+    "bilingualFlyerURL": "https://example.com/dominican-parade-flyer.jpg",
+    "town": "Lawrence"
+  },
+  {
+    "id": "3",
+    "title": "Phillips Academy Robotics Night",
+    "description": {
+      "en": "Students showcase robotics projects and interactive STEM demos.",
+      "es": "Estudiantes muestran proyectos de robótica y demostraciones STEM interactivas."
+    },
+    "date": "2025-10-05T18:00:00Z",
+    "location": {
+      "name": "Phillips Academy",
+      "address": "180 Main St, Andover, MA",
+      "lat": 42.6582,
+      "lng": -71.1331
+    },
+    "category": "STEM",
+    "organizer": "Phillips Academy Robotics Club",
+    "language": ["en","es"],
+    "bilingualFlyerURL": "https://example.com/robotics-night-flyer.jpg",
+    "town": "Andover"
+  },
+  {
+    "id": "4",
+    "title": "Memorial Hall Library Author Talk",
+    "description": {
+      "en": "Lecture and Q&A with a local author. Open to the community.",
+      "es": "Conferencia y preguntas con un autor local. Abierto a la comunidad."
+    },
+    "date": "2025-09-20T19:00:00Z",
+    "location": {
+      "name": "Memorial Hall Library",
+      "address": "2 N Main St, Andover, MA",
+      "lat": 42.6565,
+      "lng": -71.1360
+    },
+    "category": "educational",
+    "organizer": "Memorial Hall Library",
+    "language": ["en","es"],
+    "bilingualFlyerURL": "https://example.com/library-talk-flyer.jpg",
+    "town": "Andover"
+  },
+  {
+    "id": "5",
+    "title": "Lawrence Public Library Tutoring Program",
+    "description": {
+      "en": "Volunteer-based tutoring sessions for middle school students.",
+      "es": "Sesiones de tutoría voluntaria para estudiantes de secundaria."
+    },
+    "date": "2025-09-10T15:30:00Z",
+    "location": {
+      "name": "Lawrence Public Library",
+      "address": "51 Lawrence St, Lawrence, MA",
+      "lat": 42.7041,
+      "lng": -71.1606
+    },
+    "category": "volunteering",
+    "organizer": "Lawrence Public Library",
+    "language": ["es","en"],
+    "bilingualFlyerURL": "https://example.com/library-tutoring-flyer.jpg",
+    "town": "Lawrence"
+  },
+  {
+    "id": "6",
+    "title": "Andover Youth Services Community Cleanup",
+    "description": {
+      "en": "Join other students and families in a town-wide park cleanup. Service hours available.",
+      "es": "Únete a otros estudiantes y familias en una limpieza del parque. Horas de servicio disponibles."
+    },
+    "date": "2025-09-28T09:00:00Z",
+    "location": {
+      "name": "The Park",
+      "address": "Main St, Andover, MA",
+      "lat": 42.6574,
+      "lng": -71.1355
+    },
+    "category": "volunteering",
+    "organizer": "Andover Youth Services",
+    "language": ["en","es"],
+    "bilingualFlyerURL": "https://example.com/community-cleanup-flyer.jpg",
+    "town": "Andover"
+  }
+]
