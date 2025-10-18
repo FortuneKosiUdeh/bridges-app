@@ -1,47 +1,39 @@
+
 import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 
 export default function Profile() {
-  const [profile, setProfile] = useState({});
+  const [user, setUser] = useState(null);
+  const router = useRouter();
 
-  useEffect(()=> {
-    try {
-      const p = JSON.parse(localStorage.getItem('bridges_profile') || '{}');
-      setProfile(p);
-    } catch {
-      setProfile({});
+  useEffect(() => {
+    const currentUser = JSON.parse(localStorage.getItem('currentUser'));
+    if (currentUser) {
+      setUser(currentUser);
+    } else {
+      router.push('/login');
     }
-  }, []);
+  }, [router]);
 
-  const clear = () => { localStorage.removeItem('bridges_profile'); setProfile({}); };
+  const handleLogout = () => {
+    localStorage.removeItem('currentUser');
+    router.push('/login');
+  };
+
+  if (!user) {
+    return null; // Or a loading spinner
+  }
 
   return (
     <div className="max-w-3xl mx-auto p-6">
       <h1 className="text-2xl font-bold mb-4">Profile</h1>
       <div className="border p-4 rounded">
-        <p><strong>Name:</strong> {profile.name || 'Guest'}</p>
-        <p><strong>School / Grade:</strong> {profile.school || '-'}</p>
-        <p><strong>Service hours:</strong> {profile.hours || 0}</p>
-        <p><strong>Badges:</strong> {profile.badges ? profile.badges.join(', ') : '—'}</p>
-        <p className="mt-2"><strong>Event history:</strong></p>
-        <ul className="list-disc ml-6">
-          {profile.history?.map(h => <li key={h.id}>{h.title} — {new Date(h.date).toLocaleString()}</li>)}
-        </ul>
+        <p><strong>Name:</strong> {user.firstName} {user.lastName}</p>
+        <p><strong>Email:</strong> {user.email}</p>
       </div>
 
       <div className="mt-4 flex gap-2">
-        <button className="px-3 py-1 border rounded" onClick={()=>{
-          const p = { ...profile, name: 'Demo Student', school: 'Local HS', grade: '10' };
-          localStorage.setItem('bridges_profile', JSON.stringify(p)); setProfile(p);
-        }}>Fill demo profile</button>
-        <button className="px-3 py-1 border rounded" onClick={()=>{
-          const p = { ...profile, hours: (profile.hours || 0) + 1 };
-          localStorage.setItem('bridges_profile', JSON.stringify(p)); setProfile(p);
-        }}>+1 Service hour</button>
-        <button className="px-3 py-1 border rounded text-red-600" onClick={clear}>Reset</button>
-      </div>
-
-      <div className="mt-6">
-        <a href="/" className="text-sm text-blue-600">← Back</a>
+        <button className="px-3 py-1 border rounded text-red-600" onClick={handleLogout}>Logout</button>
       </div>
     </div>
   );

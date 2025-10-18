@@ -1,122 +1,322 @@
 [
   {
-    "id": "1",
-    "title": "Lawrence Puerto Rican Festival",
-    "description": {
-      "en": "Annual parade and cultural celebration with music, food, and performances.",
-      "es": "Desfile anual y celebración cultural con música, comida y presentaciones."
-    },
-    "date": "2025-09-15T15:00:00Z",
+    "id": "CF-1",
+    "title": "Phillips Academy Fall College Fair",
+    "description": "Annual college fair open to the public — representatives from many colleges will be on-site at the Snyder Center.",
+    "date": "2025-09-29T12:00:00Z",
     "location": {
-      "name": "Campagnone Common",
-      "address": "200 Common St, Lawrence, MA",
-      "lat": 42.7067,
-      "lng": -71.1634
+      "name": "Snyder Center",
+      "address": "49 Andover St, Andover, MA",
+      "lat": 42.6575,
+      "lng": -71.1289
     },
-    "category": "cultural",
-    "organizer": "Lawrence Cultural Alliance",
-    "language": ["es","en"],
-    "bilingualFlyerURL": "https://example.com/puerto-rican-festival-flyer.jpg",
-    "town": "Lawrence"
+    "category": "community",
+    "town": "Andover",
+    "organizer": "Phillips Academy",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/CF-1.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/59/campus-news/events/details/6784?instance=2025-09-29T04:00:00.00"
   },
   {
-    "id": "2",
-    "title": "Dominican Parade of Lawrence",
-    "description": {
-      "en": "Colorful parade celebrating Dominican culture with floats, music, and dance.",
-      "es": "Colorido desfile que celebra la cultura dominicana con carrozas, música y baile."
-    },
-    "date": "2025-08-11T14:00:00Z",
+    "id": "A-2",
+    "title": "Addison Gallery Opening Reception",
+    "description": "Public opening reception at the Addison Gallery featuring recent acquisitions. Everyone is welcome.",
+    "date": "2025-09-20T17:00:00Z",
     "location": {
-      "name": "Essex St",
-      "address": "Essex St, Lawrence, MA",
-      "lat": 42.7078,
-      "lng": -71.1639
+      "name": "Addison Gallery",
+      "address": "",
+      "lat": 42.655,
+      "lng": -71.1265
     },
-    "category": "cultural",
-    "organizer": "Dominican Parade Committee",
-    "language": ["es","en"],
-    "bilingualFlyerURL": "https://example.com/dominican-parade-flyer.jpg",
-    "town": "Lawrence"
+    "category": "arts",
+    "town": "Andover",
+    "organizer": "Addison Gallery",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/A-2.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/15/addison-gallery-of-american-art/events/details/6534"
   },
   {
-    "id": "3",
-    "title": "Phillips Academy Robotics Night",
-    "description": {
-      "en": "Students showcase robotics projects and interactive STEM demos.",
-      "es": "Estudiantes muestran proyectos de robótica y demostraciones STEM interactivas."
-    },
-    "date": "2025-10-05T18:00:00Z",
+    "id": "M-3",
+    "title": "Bands & Orchestra Concert",
+    "description": "Public concert featuring student bands and orchestra in the John Barry Hall.",
+    "date": "2025-10-17T19:00:00Z",
     "location": {
-      "name": "Phillips Academy",
-      "address": "180 Main St, Andover, MA",
-      "lat": 42.6582,
-      "lng": -71.1331
+      "name": "John Barry Hall, Falls Music Center",
+      "address": "",
+      "lat": 42.6578,
+      "lng": -71.128
     },
-    "category": "STEM",
-    "organizer": "Phillips Academy Robotics Club",
-    "language": ["en","es"],
-    "bilingualFlyerURL": "https://example.com/robotics-night-flyer.jpg",
-    "town": "Andover"
+    "category": "music",
+    "town": "Andover",
+    "organizer": "Phillips Academy Music Department",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/M-3.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/87/music/events/details/6776"
   },
   {
-    "id": "4",
-    "title": "Memorial Hall Library Author Talk",
-    "description": {
-      "en": "Lecture and Q&A with a local author. Open to the community.",
-      "es": "Conferencia y preguntas con un autor local. Abierto a la comunidad."
-    },
-    "date": "2025-09-20T19:00:00Z",
+    "id": "ADD-4",
+    "title": "Afternoon Art Break (30-min tour)",
+    "description": "A short public tour of current highlights at the Addison Gallery. Open to community members.",
+    "date": "2025-10-10T15:30:00Z",
     "location": {
-      "name": "Memorial Hall Library",
-      "address": "2 N Main St, Andover, MA",
-      "lat": 42.6565,
-      "lng": -71.1360
+      "name": "Addison Gallery",
+      "address": "",
+      "lat": 42.655,
+      "lng": -71.1265
     },
-    "category": "educational",
-    "organizer": "Memorial Hall Library",
-    "language": ["en","es"],
-    "bilingualFlyerURL": "https://example.com/library-talk-flyer.jpg",
-    "town": "Andover"
+    "category": "arts",
+    "town": "Andover",
+    "organizer": "Addison Gallery",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/ADD-4.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/15/addison-gallery-of-american-art/events/details/6841"
   },
   {
-    "id": "5",
-    "title": "Lawrence Public Library Tutoring Program",
-    "description": {
-      "en": "Volunteer-based tutoring sessions for middle school students.",
-      "es": "Sesiones de tutoría voluntaria para estudiantes de secundaria."
+    "id": "SUS-5",
+    "title": "Sustainability Lunch Discussion (Public Session)",
+    "description": "A sustainability office lunch series; some sessions are explicitly open to the public. (Confirm on source page.)",
+    "date": "2025-10-01T17:00:00Z",
+    "location": {
+      "name": "Ada's Room",
+      "address": "",
+      "lat": 42.6583,
+      "lng": -71.1326
     },
-    "date": "2025-09-10T15:30:00Z",
+    "category": "community",
+    "town": "Andover",
+    "organizer": "Sustainability Office",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/SUS-5.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/90/sustainability-office/events/details/6861?instance=2025-10-01T17:00:00.00"
+  },
+  {
+    "id": "V-6",
+    "title": "Virtual Addison Tour: Tommy Kha",
+    "description": "Virtual gallery tour available over Zoom; open to the public via the Addison Gallery page.",
+    "date": "2025-09-30T12:00:00Z",
+    "location": {
+      "name": "Zoom",
+      "address": "",
+      "lat": 42.6583,
+      "lng": -71.1326
+    },
+    "category": "virtual",
+    "town": "Andover",
+    "organizer": "Addison Gallery",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/V-6.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/15/addison-gallery-of-american-art/events/details/6831"
+  },
+  {
+    "id": "TOUR-7",
+    "title": "Tour: Playing to Our Strengths (Public Tour)",
+    "description": "Guided tour of the Addison Gallery's permanent collection — public tour with registration.",
+    "date": "2025-10-07T15:00:00Z",
+    "location": {
+      "name": "Addison Gallery",
+      "address": "",
+      "lat": 42.655,
+      "lng": -71.1265
+    },
+    "category": "arts",
+    "town": "Andover",
+    "organizer": "Addison Gallery",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/TOUR-7.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/15/addison-gallery-of-american-art/events/details/6874"
+  },
+  {
+    "id": "REC-8",
+    "title": "Community Recital / Concert",
+    "description": "Student recitals and community concerts are often open to the public — check the source page for specifics.",
+    "date": "2025-10-15T19:00:00Z",
+    "location": {
+      "name": "John Barry Hall, Falls Music Center",
+      "address": "",
+      "lat": 42.6578,
+      "lng": -71.128
+    },
+    "category": "music",
+    "town": "Andover",
+    "organizer": "Phillips Academy Music Department",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/REC-8.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/87/music/events/details/6775"
+  },
+  {
+    "id": "LECT-9",
+    "title": "Why History Matters: Prof. Jen Manion (Public Lecture)",
+    "description": "A public lecture in the Chapel; open events like this are good for Lawrence residents to attend.",
+    "date": "2025-10-08T19:00:00Z",
+    "location": {
+      "name": "Chapel",
+      "address": "",
+      "lat": 42.657,
+      "lng": -71.1276
+    },
+    "category": "lecture",
+    "town": "Andover",
+    "organizer": "Phillips Academy",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/LECT-9.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/59/campus-news/events/details/6787"
+  },
+  {
+    "id": "DROP-10",
+    "title": "Drop-Off Hours: Recycling & Donations (Public)",
+    "description": "Community drop-off for donations and electronics waste at the Abbot Campus Recycling Station.",
+    "date": "2025-10-03T15:00:00Z",
+    "location": {
+      "name": "Abbot Campus Recycling Station",
+      "address": "",
+      "lat": 42.66,
+      "lng": -71.123
+    },
+    "category": "community",
+    "town": "Andover",
+    "organizer": "Sustainability Office",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/DROP-10.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/90/sustainability-office/events/details/6513?instance=2025-10-03T15:00:00.00"
+  },
+  {
+    "id": "FAM-11",
+    "title": "Family Weekend (Open Events)",
+    "description": "Family Weekend includes some public-facing events — check the schedule on the source page.",
+    "date": "2025-10-17T12:00:00Z",
+    "location": {
+      "name": "Phillips Academy Campus",
+      "address": "",
+      "lat": 42.6473,
+      "lng": -71.1316
+    },
+    "category": "community",
+    "town": "Andover",
+    "organizer": "Phillips Academy",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/FAM-11.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/59/campus-news/events/details/6681"
+  },
+  {
+    "id": "WORK-12",
+    "title": "Workshop: Self-Image at a Distance (Reg.)",
+    "description": "A public workshop at the Addison Gallery (registration required). Suitable for community visitors.",
+    "date": "2025-11-01T12:00:00Z",
+    "location": {
+      "name": "Addison Gallery",
+      "address": "",
+      "lat": 42.655,
+      "lng": -71.1265
+    },
+    "category": "workshop",
+    "town": "Andover",
+    "organizer": "Addison Gallery",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "/flyers/WORK-12.pdf",
+    "sourceURL": "https://panet.andover.edu/spaces/15/addison-gallery-of-american-art/events/details/6875"
+  },
+  {
+    "id": "ART-13",
+    "title": "Teen Art Workshop",
+    "description": "A workshop for teens to explore different art mediums and techniques.",
+    "date": "2025-10-25T14:00:00Z",
+    "location": {
+      "name": "Essex Art Center",
+      "address": "56 Island Street, Lawrence, MA",
+      "lat": 42.7059142,
+      "lng": -71.1524648
+    },
+    "category": "arts",
+    "town": "Lawrence",
+    "organizer": "Essex Art Center",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "",
+    "sourceURL": ""
+  },
+  {
+    "id": "CODE-14",
+    "title": "Intro to Python Workshop",
+    "description": "A beginner-friendly workshop for teens interested in learning how to code.",
+    "date": "2025-11-08T13:00:00Z",
+    "location": {
+      "name": "Movement City",
+      "address": "168 Newbury Street, Lawrence, MA",
+      "lat": 42.713494,
+      "lng": -71.1559939
+    },
+    "category": "workshop",
+    "town": "Lawrence",
+    "organizer": "Movement City",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "",
+    "sourceURL": ""
+  },
+  {
+    "id": "POET-15",
+    "title": "Youth Poetry Slam",
+    "description": "A poetry slam for young poets to share their work and connect with other writers.",
+    "date": "2025-11-15T18:00:00Z",
     "location": {
       "name": "Lawrence Public Library",
-      "address": "51 Lawrence St, Lawrence, MA",
-      "lat": 42.7041,
-      "lng": -71.1606
+      "address": "51 Lawrence Street, Lawrence, MA",
+      "lat": 42.7107211,
+      "lng": -71.1622146
     },
-    "category": "volunteering",
+    "category": "community",
+    "town": "Lawrence",
     "organizer": "Lawrence Public Library",
-    "language": ["es","en"],
-    "bilingualFlyerURL": "https://example.com/library-tutoring-flyer.jpg",
-    "town": "Lawrence"
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "",
+    "sourceURL": ""
   },
   {
-    "id": "6",
-    "title": "Andover Youth Services Community Cleanup",
-    "description": {
-      "en": "Join other students and families in a town-wide park cleanup. Service hours available.",
-      "es": "Únete a otros estudiantes y familias en una limpieza del parque. Horas de servicio disponibles."
-    },
-    "date": "2025-09-28T09:00:00Z",
+    "id": "GARD-16",
+    "title": "Community Gardening Day",
+    "description": "Join Groundwork Lawrence for a day of gardening and community building.",
+    "date": "2025-10-18T10:00:00Z",
     "location": {
-      "name": "The Park",
-      "address": "Main St, Andover, MA",
-      "lat": 42.6574,
-      "lng": -71.1355
+      "name": "Lawrence Heritage State Park",
+      "address": "1 Jackson St, Lawrence, MA",
+      "lat": 42.7067,
+      "lng": -71.1575
     },
-    "category": "volunteering",
-    "organizer": "Andover Youth Services",
-    "language": ["en","es"],
-    "bilingualFlyerURL": "https://example.com/community-cleanup-flyer.jpg",
-    "town": "Andover"
+    "category": "community",
+    "town": "Lawrence",
+    "organizer": "Groundwork Lawrence",
+    "language": [
+      "en"
+    ],
+    "bilingualFlyerURL": "",
+    "sourceURL": ""
   }
 ]

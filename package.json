@@ -5,10 +5,14 @@
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
-    "start": "next start -p 3000"
+    "start": "next start -p 3000",
+    "geocode:events": "node scripts/geocode_events.js",
+    "test:mapbox": "node scripts/test_mapbox_api.js",
+    "save:pdfs": "node scripts/save_event_pdfs.js --cookie-file=~/.panet_cookie.txt"
   },
   "dependencies": {
     "autoprefixer": "^10.4.0",
+    "@iamtraction/google-translate": "^1.1.2",
     "mapbox-gl": "^3.14.0",
     "next": "13.5.2",
     "openai": "^4.0.0",
@@ -19,5 +23,8 @@
     "react-map-gl": "^7.0.20",
     "tailwindcss": "^3.4.0",
     "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.22.0"
   }
 }

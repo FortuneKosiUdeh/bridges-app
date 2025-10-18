@@ -2,4 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
-html,body,#__next { height: 100%; }
+html, body, #__next { height: 100%; }
+
+:root {
+  --color-primary: #7b5e3e;
+  --color-primary-600: #6b4f33;
+  --color-accent: #9c7b59;
+  --bg-card: #f8f3ee;
+  --muted: #cfc6bf;
+  --surface-1: #f8f3ee;
+  --surface-2: #f1e9e1;
+  --surface-3: #e8dfd6;
+  --surface-4: #e0d7cf;
+  --text-main: #26221e;
+  --text-headings: #0f172a;
+  --page-bg: #d6d6d6;
+  --card-border: rgba(0, 0, 0, 0.08);
+  --focus-shadow: rgba(123, 94, 62, 0.12);
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--text-main);
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  color: white;
+  background-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-600);
+}
+
+.btn-primary:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px var(--focus-shadow);
+}
+
+.btn-ghost {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #1f2937; /* text-gray-800 */
+  border: 1px solid #e5e7eb; /* border-gray-200 */
+}
+
+.btn-ghost:hover {
+  background-color: #f3f4f6; /* bg-gray-100 */
+}
+
+.card {
+  background-color: var(--bg-card);
+  border-radius: 0.5rem; /* rounded-lg */
+  border: 1px solid var(--card-border);
+  box-shadow: 0 8px 20px rgba(15, 15, 15, 0.12);
+  color: var(--text-main);
+}
+
+.page-section {
+  border-radius: 0.5rem; /* rounded-lg */
+  padding: 1rem; /* p-4 */
+  color: var(--text-main);
+}
+
+.surface-1 { background-color: var(--surface-1); }
+.surface-2 { background-color: var(--surface-2); }
+.surface-3 { background-color: var(--surface-3); }
+.surface-4 { background-color: var(--surface-4); }
+
+h1, h2, h3 {
+  color: var(--text-headings);
+}
+
+.muted {
+  color: var(--muted);
+}
